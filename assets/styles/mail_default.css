@@ -1,4 +1,9 @@
 
+:root {
+    --background: #3D2E80;
+    --link_color: #3D2E80;
+}
+
 img {
     border: none;
     -ms-interpolation-mode: bicubic;
