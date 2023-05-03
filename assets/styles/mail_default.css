@@ -11,7 +11,7 @@ img {
 }
 
 body {
-    background-color: {{$background_color}};
+    background-color: var(--background);
     font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
@@ -36,7 +36,7 @@ table td {
 }
 
 .body {
-    background-color: {{ $background_color }};
+    background-color: var(--background);
     width: 100%;
 }
 
@@ -127,7 +127,7 @@ ol li {
 }
 
 a {
-    color: {{$link_color}};
+    color: var(--link_color);
     text-decoration: underline;
 }
 
